@@ -8,6 +8,7 @@
     max-width: 38ch;
     display: flex;
     flex-direction: column;
+    background-color: white;
     @media (min-width: u.$desktop) {
         max-width: 350px;
         //max-width: 45ch;

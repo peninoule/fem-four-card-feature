@@ -66,7 +66,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: #fafafa;
 }
 
 .header {
@@ -88,7 +88,7 @@ body {
 .header__title--light {
   font-weight: 275;
 }
-@media (min-width: 60em) {
+@media (min-width: 1000px) {
   .header__title {
     font-size: 2.25rem;
     line-height: 3.375rem;
@@ -104,11 +104,12 @@ body {
   padding-top: 1rem;
   margin-bottom: 4.75rem;
 }
-@media (min-width: 60em) {
+@media (min-width: 1000px) {
   .header__body {
     font-size: 1rem;
     line-height: 1.5625rem;
     max-width: 55ch;
+    margin-bottom: 2rem;
   }
 }
 
@@ -120,6 +121,7 @@ body {
   max-width: 38ch;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 @media (min-width: 1000px) {
   .card {

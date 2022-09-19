@@ -14,7 +14,7 @@
         &--light {
             font-weight: u.$fw-light;
         }
-        @media (min-width: 60em) {
+        @media (min-width: u.$desktop) {
             font-size: u.$fs-500;
             line-height: u.$lh-600;  
         }
@@ -27,10 +27,11 @@
         max-width: 32ch;
         padding-top: 1rem;
         margin-bottom: 4.75rem; // 76px
-        @media (min-width: 60em) {
+        @media (min-width: u.$desktop) {
             font-size: u.$fs-250;
             line-height: u.$lh-300;
             max-width: 55ch;
+            margin-bottom: 2rem;
         }
     }
 }
