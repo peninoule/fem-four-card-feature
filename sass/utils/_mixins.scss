@@ -1,0 +1,25 @@
+@use './variables.scss' as v;
+
+
+@mixin margin {
+    margin-inline: 2rem;
+}
+
+@mixin typography($fs, $fw, $lh, $clr) {
+    font-family: v.$font-family;
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    color: $clr;
+}
+
+@mixin border-clr($clr) {
+    border-top: 10px solid $clr;
+}
+
+@mixin grid ($row1, $row2, $column) {
+    @media (min-width: v.$desktop) {
+        grid-row: $row1 / $row2;
+        grid-column: $column;
+    }
+}

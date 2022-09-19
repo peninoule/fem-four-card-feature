@@ -1,0 +1,14 @@
+@use '../utils/' as u;
+
+.grid {
+    display: grid;
+    gap: 1.5625rem;
+    @media (min-width: u.$desktop) {
+        grid-template-areas: 
+                ".  r1  ."
+                "g1 r2 b1"
+                "g2 y1 b2"
+                ".  y2  ."
+
+    }
+}

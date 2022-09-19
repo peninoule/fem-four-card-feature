@@ -1,0 +1,33 @@
+@use '../utils/' as u;
+
+.header {
+    text-align: center;
+    margin-top: 5.3125rem; // 85px
+    &__title {
+        @include u.typography($fs: u.$fs-400, 
+                              $fw: u.$fw-bold,
+                              $lh: u.$lh-500,
+                              $clr: u.$clr-neutral-900);
+        &--light {
+            font-weight: u.$fw-light;
+        }
+        @media (min-width: 60em) {
+            font-size: u.$fs-500;
+            line-height: u.$lh-600;  
+        }
+    }
+    &__body {
+        @include u.typography($fs: u.$fs-200,
+                              $fw: u.$fw-semi,
+                              $lh: u.$lh-300,
+                              $clr: u.$clr-neutral-500);
+        max-width: 32ch;
+        padding-top: 1rem;
+        margin-bottom: 4.75rem; // 76px
+        @media (min-width: 60em) {
+            font-size: u.$fs-200;
+            line-height: u.$lh-300;
+            max-width: 55ch;
+        }
+    }
+}
