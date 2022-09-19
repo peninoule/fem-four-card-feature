@@ -9,7 +9,8 @@
     display: flex;
     flex-direction: column;
     @media (min-width: u.$desktop) {
-        max-width: 45ch;
+        max-width: 350px;
+        //max-width: 45ch;
         padding: 32px;
     }
     &__title {
