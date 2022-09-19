@@ -14,7 +14,7 @@
 }
 
 @mixin border-clr($clr) {
-    border-top: 8px solid $clr;
+    border-top: 5px solid $clr;
 }
 
 @mixin grid ($row1, $row2, $column) {
