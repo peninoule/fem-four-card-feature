@@ -11,10 +11,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -41,8 +39,8 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [vite] (https://vitejs.dev/guide/features.html) 
-- [Sass] (https://sass-lang.com/)
+- [vite](https://vitejs.dev/guide/features.html) 
+- [Sass](https://sass-lang.com/)
 
 ### What I learned
 
@@ -69,11 +67,9 @@ Then you can place your items using the gris areas names. For example, I want th
 }
 ```
 
-Here's a link to a great [vidéo] made by the all mighty Kevin Powell that explains it very well. (https://www.youtube.com/watch?v=CVKbe4RaUZQ&t=260s)
-
 ### Useful resources
 
-- [Grid Template Area](https://www.youtube.com/watch?v=CVKbe4RaUZQ&t=260s) - Here's a link to a great [vidéo] made by the all mighty Kevin Powell that explains it very well.
+- [Grid Template Area](https://www.youtube.com/watch?v=CVKbe4RaUZQ&t=260s) - Here's a link to a great vidéo made by the all mighty Kevin Powell that explains grid area templates very well.
 
 ## Author
 
