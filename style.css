@@ -109,7 +109,7 @@ body {
 .card {
   justify-self: center;
   border-radius: 10px;
-  box-shadow: 0 5px 15px 2px hsl(229deg, 6%, 66%);
+  box-shadow: 5px 5px 12px 3px rgba(0, 0, 0, 0.04);
   padding: 28px;
   max-width: 38ch;
   display: flex;
