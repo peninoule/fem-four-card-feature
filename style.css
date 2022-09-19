@@ -115,7 +115,7 @@ body {
 
 .card {
   justify-self: center;
-  border-radius: 10px;
+  border-radius: 4px;
   box-shadow: 5px 5px 12px 3px rgba(0, 0, 0, 0.1);
   padding: 28px;
   max-width: 38ch;
@@ -156,7 +156,7 @@ body {
   }
 }
 .card--green {
-  border-top: 5px solid hsl(180deg, 62%, 55%);
+  border-top: 4px solid hsl(180deg, 62%, 55%);
 }
 @media (min-width: 1000px) {
   .card--green {
@@ -165,7 +165,7 @@ body {
   }
 }
 .card--red {
-  border-top: 5px solid hsl(0deg, 78%, 62%);
+  border-top: 4px solid hsl(0deg, 78%, 62%);
 }
 @media (min-width: 1000px) {
   .card--red {
@@ -174,7 +174,7 @@ body {
   }
 }
 .card--yellow {
-  border-top: 5px solid hsl(34deg, 97%, 64%);
+  border-top: 4px solid hsl(34deg, 97%, 64%);
 }
 @media (min-width: 1000px) {
   .card--yellow {
@@ -183,7 +183,7 @@ body {
   }
 }
 .card--blue {
-  border-top: 5px solid hsl(212deg, 86%, 64%);
+  border-top: 4px solid hsl(212deg, 86%, 64%);
 }
 @media (min-width: 1000px) {
   .card--blue {
